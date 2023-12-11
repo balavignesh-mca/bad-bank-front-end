@@ -1,0 +1,552 @@
+.nav {
+  color: rgb(0, 255, 255);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.nav:hover {
+  color: rgb(255, 0, 0);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-floating {
+  padding-bottom: 10px;
+}
+
+.create {
+  width: 80%;
+  /* margin-left: 35%; */
+}
+
+.top {
+  border-color: #000000;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  border-color: #000000;
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  border-color: #000000;
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.bt {
+  margin-left: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-left: 6rem;
+}
+
+.title {
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.form {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 430px;
+  border: #000000;
+}
+
+.form:before {
+  background-image: url("./images/2.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  /* filter: blur(2px); */
+}
+
+.card input,
+label {
+  color: black;
+  border-radius: 10px;
+}
+
+.card-alldata {
+  margin-top: 10rem;
+  width: 400px;
+  height: fit-content;
+}
+
+.box {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #000000;
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 450px;
+  border: #000000;
+}
+
+.box:before {
+  background-image: url("./images/2.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  /* filter: blur(2px); */
+}
+
+.all-box {
+  width: 70%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #000000;
+  margin-bottom: 1rem;
+}
+
+.all {
+  margin-top: 100px;
+  height: fit-content;
+  width: 70%;
+}
+
+.update{
+  margin-top: 100px;
+  /* padding-top: 1rem; */
+  height: fit-content;
+}
+
+body::-webkit-scrollbar-track {
+  position: absolute;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #222222;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.5) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+
+/* CSS for screens smaller than 600px (mobile) */
+@media (max-width: 600px) {
+	.nav {
+	  font-size: 12px;
+	  border-radius: 10px;
+	  padding: 3px;
+	}
+  
+	.nav:hover {
+	  color: rgb(255, 0, 0);
+	}
+  
+	.create {
+	  width: 100%;
+	  margin-left: 0;
+	}
+  
+	.form {
+	  width: 100%;
+	  height: 100%;
+	  padding: 60px;
+	}
+  
+	.box {
+	  width: 100%;
+	  height: 100%;
+	  padding: 20px;
+	}
+  
+	.all {
+	  width: 100%;
+	}
+  
+	.title {
+	  font-size: 24px;
+	}
+  
+	.mb-4 {
+	  margin-left: 0;
+	}
+  .nav {
+  color: rgb(0, 255, 255);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.nav:hover {
+  color: rgb(255, 0, 0);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-floating {
+  padding-bottom: 10px;
+}
+
+.create {
+  width: 80%;
+  /* margin-left: 35%; */
+}
+
+.top {
+  border-color: #000000;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  border-color: #000000;
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  border-color: #000000;
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.bt {
+  margin-left: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-left: 6rem;
+}
+
+.title {
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.form {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 430px;
+  border: #000000;
+}
+
+.form:before {
+  background-image: url("./images/2.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  /* filter: blur(2px); */
+}
+
+.card input,
+label {
+  color: black;
+  border-radius: 10px;
+}
+
+.card-alldata {
+  margin-top: 10rem;
+  width: 400px;
+  height: fit-content;
+}
+
+.box {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #000000;
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 450px;
+  border: #000000;
+}
+
+.box:before {
+  background-image: url("./images/2.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  /* filter: blur(2px); */
+}
+
+.all-box {
+  width: 70%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #000000;
+  margin-bottom: 1rem;
+}
+
+.all {
+  margin-top: 100px;
+  height: fit-content;
+  width: 70%;
+}
+
+.update{
+  margin-top: 100px;
+  /* padding-top: 1rem; */
+  height: fit-content;
+}
+
+body::-webkit-scrollbar-track {
+  position: absolute;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #222222;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.5) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+
+/* CSS for screens smaller than 600px (mobile) */
+@media (max-width: 600px) {
+	.nav {
+	  font-size: 12px;
+	  border-radius: 10px;
+	  padding: 3px;
+	}
+  
+	.nav:hover {
+	  color: rgb(255, 0, 0);
+	}
+  
+	.create {
+	  width: 100%;
+	  margin-left: 0;
+	}
+  
+	.form {
+	  width: 100%;
+	  height: 100%;
+	  padding: 60px;
+	}
+  
+	.box {
+	  width: 100%;
+	  height: 100%;
+	  padding: 20px;
+	}
+  
+	.all {
+	  width: 100%;
+	}
+  
+	.title {
+	  font-size: 24px;
+	}
+  
+	.mb-4 {
+	  margin-left: 0;
+	}
+ 
+  }
+
+  .all {
+    margin-top: 50px;
+    height: fit-content;
+    width: 100%;
+  }
+  .all-box {
+    width: 100%;
+	  height: 100%;
+	  padding: 20px;
+  }
+  .all-btn {
+    height: fit-content;
+   }
+  }
+
+  .all-btn {
+   margin-left: 30%;
+    max-width: 40%;
+  }
+
+
+  @media (max-width: 280px) {
+    .nav {
+      font-size: 10px;
+      border-radius: 5px;
+      
+      padding: 2px;
+    }
+    .nav:hover {
+      color: rgb(255, 0, 0);
+    }
+    
+    .create {
+      width: 100%;
+      margin-left: 0;
+    }
+    
+    .form {
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+    }
+    
+    .box {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+    
+    .all {
+      width: 100%;
+    }
+    
+    .title {
+      font-size: 18px;
+    }
+    
+    .mb-4 {
+      margin-left: 0;
+    }
+   
+    
+  
+    .all {
+      margin-top: 30px;
+      height: fit-content;
+      width: 100%;
+    }
+    .all-box {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+    .all-btn {
+      height: fit-content;
+     }
+  }
+  
+  
